@@ -1,0 +1,171 @@
+html,
+body {
+    display: flex;
+    height: 100dvh;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.main {
+    display: flex;
+    min-width: fit-content;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.result {
+    max-width: 288px;
+    height: 398px;
+    border-radius: 30px;
+    text-align: center;
+    background: linear-gradient(180deg, hsl(252, 94%, 63%) 0%, rgba(46, 43, 233, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    box-shadow: 11px 11px 13px 6px #f4f7fe;
+}
+
+.marks {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+    background: linear-gradient(0deg, hsl(246, 86%, 57%) 0%, hsl(255, 71%, 46%) 100%);
+    color: white;
+
+}
+
+
+
+.bold {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.comment {
+    padding: 20px;
+}
+
+.summary {
+    width: 288px;
+    height: 398px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    box-shadow: 11px 11px 13px 6px #f4f7fe;
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 12px 15px 12px 15px;
+
+}
+
+.attribute {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.textbold {
+    font-weight: bolder;
+    color: black;
+}
+
+#red {
+    background-color: #fff6f5;
+}
+
+#r1 {
+    color: #f3969b;
+}
+
+#yellow {
+    background-color: #fffbf2;
+}
+
+#y1 {
+    color: #ebb94e;
+}
+
+#green {
+    background-color: #f2fbfa;
+}
+
+#g1 {
+    color: #4eb49b;
+}
+
+#violet {
+    background-color: #f3f3fd;
+}
+
+#v1 {
+    color: #41419d;
+}
+
+.tcolor {
+    color: #d7caff;
+
+}
+
+.Tcolor {
+    color: #a39fa0;
+}
+
+button {
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 35px;
+    background-color: #303b5a;
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(180deg, hsl(252, 94%, 63%) 0%, rgba(46, 43, 233, 1) 100%);
+
+}
+
+.attribution {
+    font-size: 14px;
+    max-width: 288px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        height: auto;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        min-width: fit-content;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+}
